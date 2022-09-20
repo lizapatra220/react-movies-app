@@ -1,0 +1,22 @@
+.Header{
+    width:100%;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    background-color:#39445a;
+    color: white;
+    box-shadow: 0px 1px 5px black;
+    text-transform: uppercase;
+    font-size: 5vw;
+    position: fixed;
+    padding-bottom: 15px;
+    z-index: 100;
+    font-family: "Montserrat",sans-serif;
+
+}
+@media (max-width:1000px){
+    .Header{
+        padding-top: 15px;
+        font-size: 6vw;
+    }
+}
