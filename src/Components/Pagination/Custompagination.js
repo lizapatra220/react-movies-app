@@ -25,6 +25,8 @@ const Custompagination = ({ setpage, pagecount = 10 }) => {
           count={pagecount}
           variant="outlined"
           color="primary"
+          hideNextButton
+          hidePrevButton
           onChange={(e) => handler(e.target.textContent)}
         />
       </ThemeProvider>
