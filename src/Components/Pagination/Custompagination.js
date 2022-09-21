@@ -6,7 +6,7 @@ const darkTheme = createTheme({
   },
 });
 
-const Custompagination = ({ setpage, pagecount = 10 }) => {
+const Custompagination = ({ setpage, numofpages = 10 }) => {
   const handler = (page) => {
     setpage(page);
     window.scroll(0, 0);
@@ -22,7 +22,7 @@ const Custompagination = ({ setpage, pagecount = 10 }) => {
     >
       <ThemeProvider theme={darkTheme}>
         <Pagination
-          count={pagecount}
+          count={numofpages}
           variant="outlined"
           color="primary"
           hideNextButton
